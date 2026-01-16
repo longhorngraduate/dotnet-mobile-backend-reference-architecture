@@ -1,0 +1,67 @@
+# Visual Studio / VSCode / Rider
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+artifacts/
+
+# Rider & JetBrains
+*.sln.iml
+.localhistory/
+
+# User-specific & local dev files
+*.userprefs
+launchSettings.json
+secrets.json
+.env
+
+# Config files with secrets
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.Private.json
+
+# NuGet Packages
+*.nupkg
+packages/
+
+# Logs & temp files
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+*.old
+TestResults/
+*.trx
+
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Xamarin / .NET MAUI specific
+platforms/android/.gradle/
+platforms/android/build/
+platforms/android/app/build/
+platforms/android/.idea/
+obj/Debug/android/
+obj/Release/android/
+*.apk
+*.aab
+*.xap
+*.ipa
+*.dSYM*
+*.xcuserstate
+
+# Node modules (for JS tooling)
+node_modules/
+
+# Azure pipelines / CI
+*.azurepipelines.yml
