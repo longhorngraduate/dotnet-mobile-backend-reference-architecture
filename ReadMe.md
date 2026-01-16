@@ -11,6 +11,11 @@ The goal is to demonstrate architecture and design patterns in a practical codeb
 
 ---
 
+## About
+GPSRadius is a .NET MAUI mobile app with a REST API backend that lets users discover nearby businesses/services in a user-defined radius, view profiles, and manage account details like authentication and avatars. The backend handles auth integration and data storage; the client focuses on MVVM UI and clean separation of core workflows.
+
+---
+
 ## Tech Stack
 
 - Client: .NET MAUI, XAML, MVVM
@@ -82,13 +87,13 @@ Non-GoF patterns and practices used:
 
 For the detailed write-up with evidence and code references, see:
 
-- `docs/architecture-and-patterns.md`
+- `dotnet-mobile-backend-reference-architecture/Architectures_Designs.docx`
 
 ---
 
 ## Notes
 
-This repo is intentionally structured to be easy to review in an interview setting:
+The GPSRadius repo is intentionally structured to be easy to review in an interview setting:
 - clear project boundaries,
 - explicit patterns,
 - and practical production-minded concerns (auth, throttling, CI/CD).
